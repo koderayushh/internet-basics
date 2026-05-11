@@ -1,0 +1,108 @@
+How the Internet Works
+======================
+-> The Internet is a global network of computers that communicate with each other using predefined rules called protocols.
+  - Internet: infrastructure (cables, routers, servers).
+  - Web: services that runs on the internet (websites, web apps).
+
+-> History of Web
+  - Web 1.0 (read only)
+    • only static websites where user can only read nothing else.
+    • no login/signup, comments, likes or sharing.
+    • content is created by websites owners only.
+
+  - Web 2.0 (read + write)
+    • interactive and dynamic web.
+    • users can create, share, and interact with content.
+    • features like login/signup, comments, likes, shares.
+    • user data is controlled by company/website owners.
+
+  - Web 3.0 (decentralized web)
+    • blockchain-based and decentralized.
+    • users own and control their data.
+    • uses smart contracts and crypto wallets instead of traditional logins.
+    • still evolving and not fully adopted yet.
+
+-> How computers communicate with each other
+  - Computers communicate using binary data (0s and 1s).
+  - To understand each other, computers follow fixed rules called protocols.
+  - Protocols define:
+    • how data is sent
+    • how data is received
+    • how data is interpreted
+
+  - Common Protocols:
+    • HTTP / HTTPS: used for web communication.
+    • TCP/IP: used to send data reliably over the internet.
+
+-> How computers send data all over the world
+  - Data is not sent as a whole, it is broken into small parts called packets and it contains:
+    • source IP
+    • destination IP
+    • sequence number
+    • payload (actual data)
+
+  - Each packet travels through different paths on the internet.
+  - Routers help packets choose the best path to reach the destination.
+  - At the destination, packets are reassembled to form the original data.
+  - This makes communication
+    • fast
+    • reliable
+
+-> Domain Name
+  - A domain name is a human readable address of a website.
+  - It is easier to remember than numeric IP addresses.
+  - Example
+    • google.com
+    • youtube.com
+
+  - Domain names are mapped to IP addresses using DNS.
+
+-> IP Address (Internet Protocol)
+  - An IP address is a unique numeric identifier assigned to every device on the internet.
+  - It helps identify and locate devices on a network.
+  - Example
+    • 142.250.195.14
+
+  - Types of IP address
+    • IPv4
+    • IPv6
+
+-> MAC Address
+  - A MAC address is a unique hardware address of a network device.
+  - It is assigned by the manufacturer.
+  - It is mostly used inside local networks (LAN).
+  - MAC address is hardware based and usually permanent, but can be spoofed.
+
+-> Routing
+  - Routing is the process of selecting the best path for data to travel.
+  - Routers perform routing on the internet.
+  - If one path fails, routers automatically choose another path.
+  - This helps data reach its destination efficiently.
+
+-> ISP (Internet Service Provider)
+  - An ISP is a company that provides internet access to users.
+  - ISP connects user devices to the global internet.
+  - ISP responsibilities
+    • provide internet connection
+    • assign IP address
+    • transfer data between user and server
+
+  - Examples
+    • Jio
+    • Airtel
+
+-> DNS (Domain Name System)
+  - DNS converts domain names into IP addresses.
+  - Computers use IP addresses, not domain names.
+  - Example
+    • google.com (2404:6800:4002:817::200e)
+
+  - DNS works like a phonebook of the internet.
+
+-> How ISP and DNS work together
+  - User enters a domain name in the browser.
+  - Browser sends request to ISP.
+  - ISP asks DNS for the IP address of the domain.
+  - DNS returns the IP address.
+  - ISP connects user to the server using that IP.
+  - Data is sent back to the browser and website loads.
