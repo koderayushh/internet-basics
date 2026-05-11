@@ -1,0 +1,93 @@
+Client-Server Architecture
+==========================
+-> Client-Server Model
+  - The client server model is an architecture where two or more systems communicate with each other over a network.
+  - The client sends requests for data or services.
+  - The server receives those requests, processes them, and sends responses.
+  - A single server can handle requests from multiple clients simultaneously.
+
+-> Client (Browser) vs Server (Hosting Computer)
+  - Client
+    • used by user (Chrome, Brave, Firefox, Edge).
+    • sends HTTP/HTTPS requests to the server.
+    • receives responses and displays the website.
+    • cannot access database directly.
+
+  - Server
+    • remote computer that hosts the website.
+    • stores website files and data.
+    • listens for incoming client requests.
+    • processes requests and sends responses.
+    • has access to databases and server-side resources.
+
+-> HTTP Request and Response Cycle
+  - Browser and server communicate using HTTP/HTTPS protocol.
+  - Request
+    • browser sends a request to the server.
+    • request contains URL, method, headers and data.
+
+  - Processing
+    • server receives the request.
+    • server runs backend logic.
+    • server may fetch data from database.
+
+  - Response
+    • server sends response back to browser.
+    • response contains status code, headers and data.
+
+  - Render
+    • browser receives the response.
+    • browser parses HTML, applies CSS, and executes JavaScript.
+    • website is rendered on the user’s screen.
+
+-> What happens when you visit a website
+  - User enters a URL in the browser.
+  - Browser finds the IP address using DNS.
+  - Browser sends HTTP request to the server.
+  - Server processes the request.
+  - Server sends response back to browser.
+  - Browser renders the website on the screen.
+
+-> Front-end vs Back-end
+  - Front-end
+    • visible part of the website.
+    • runs in the browser.
+    • built using HTML, CSS, JavaScript.
+    • handles user interaction and UI.
+
+  - Back-end
+    • hidden part of the website.
+    • runs on the server.
+    • handles logic, authentication, and data.
+    • works with databases and APIs.
+
+-> Static Websites
+  - Static websites show fixed content.
+  - Same content is shown to every user.
+  - Static websites usually do not require a database.
+  - Content does not change automatically.
+  - Examples
+    • portfolio website
+    • landing page
+
+-> Dynamic Websites
+  - Dynamic websites show changing content.
+  - Content depends on user or data.
+  - Uses server-side logic and database.
+  - Examples
+    • social media websites
+    • e-commerce websites
+
+-> Web Hosting
+  - Web hosting is a service that stores website files on a server.
+  - Hosting makes a website accessible on the internet.
+  - Hosting provider gives
+    • server space
+    • IP address
+    • internet connectivity
+
+-> How web hosting works
+  - Website files are uploaded to a hosting server.
+  - Server is connected to the internet 24/7.
+  - Domain name points to the server IP.
+  - When user visits the domain, server sends website files.
