@@ -1,0 +1,65 @@
+Understanding HTTP & HTTPS
+==========================
+-> What is HTTP (Hypertext Transfer Protocol)
+  - HTTP is a communication protocol used by browsers and servers to exchange data on the web.
+    • it defines how a request is sent and how a response is returned.
+    • it is the foundation of how websites work.
+    • HTTP follows a request–response model.
+
+  - HTTP is a stateless protocol, which means each request is independent and the server does not remember previous requests by default.
+  - Versions of HTTP
+    • HTTP 1.0: basic, opens new connection for each request.
+    • HTTP 1.1: supports persistent connections (keep-alive), allows caching.
+    • HTTP 2: faster, supports multiplexing (multiple requests at once).
+    • HTTP 3: uses QUIC protocol, faster and more reliable.
+
+-> HTTP Status Codes for Responses
+  - HTTP status codes tell the browser what happened to its request.
+    • 1XX: Informational (request received, processing)
+    • 2XX: Success (request successful)
+    • 3XX: Redirection (resource moved or redirected)
+    • 4XX: Client Error (wrong request, e.g., 404 Not Found)
+    • 5XX: Server Error (problem on server, e.g., 500 Internal Server Error)
+
+-> What is HTTPS (Hypertext Transfer Protocol Secured)
+  - HTTPS is the secure version of HTTP.
+    • HTTPS encrypts the data sent between browser and server.
+    • prevents hackers from reading or modifying data.
+    • ensures confidentiality, integrity, and authentication.
+
+-> How HTTPS Provides Secure Connection
+  - Uses SSL/TLS encryption to secure communication.
+  - Secure Connection Steps:
+    • browser requests a secure connection.
+    • server sends its digital certificate.
+    • browser verifies the certificate.
+    • a secure session key is created.
+    • all data is encrypted using this key.
+
+-> SSL/TLS Encryption
+  - SSL (Secure Sockets Layer): older encryption protocol.
+  - TLS (Transport Layer Security): modern, more secure version of SSL.
+  - Today, TLS is used everywhere, but people still casually say SSL.
+  - TLS protects:
+    • passwords
+    • payment details
+    • personal data
+
+-> Proxy and Reverse Proxy
+  - Proxy Server
+    • acts between client and internet.
+    • hides client identity.
+    • used for privacy, filtering, and access control.
+
+  - Reverse Proxy
+    • acts between client and server.
+    • protects backend servers.
+    • distributes traffic across multiple servers (load balancing).
+
+-> How VPN Works
+  - VPN (Virtual Private Network) creates an encrypted tunnel between user device and the internet.
+  - VPN hides the user’s real IP address and encrypts all outgoing data.
+  - VPN helps with:
+    • privacy protection
+    • secure browsing on public Wi-Fi
+    • accessing geo-restricted or blocked content safely
