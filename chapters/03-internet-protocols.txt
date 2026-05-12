@@ -1,0 +1,52 @@
+Internet Protocols
+==================
+-> Internet Protocols
+  - Internet protocols are the rules that define how data is formatted, sent, and received over the internet.
+  - These protocols allow different devices to communicate with each other reliably.
+  - Every device on the internet has a unique IP address to identify it.
+  - IP ensures data packets reach the correct destination.
+
+-> TCP Protocol (Transmission Control Protocol)
+  - TCP is a connection-oriented protocol used for reliable data transmission over the internet.
+  - It ensures that data is delivered completely, accurately, and in the correct order.
+  - TCP detects lost packets and retransmits them if necessary.
+  - Because of its reliability, TCP is widely used for web pages (HTTP/HTTPS), emails, and file transfers.
+
+-> How TCP establishes connection (3-Way Handshake)
+  - SYN (Synchronize)
+    • Client sends SYN packet to server to start connection.
+
+  - SYN-ACK
+    • Server responds with SYN-ACK to acknowledge request.
+
+  - ACK (Acknowledge)
+    • Client sends ACK to confirm connection is established.
+
+  - After this handshake, data transfer begins.
+
+-> UDP Protocol (User Datagram Protocol)
+  - UDP is a connectionless protocol used for fast data transmission.
+  - It does not guarantee delivery, order, or error correction of data packets.
+  - UDP focuses on speed rather than reliability.
+  - It is commonly used for real-time applications like video streaming, online gaming, and voice/video calls.
+
+-> How UDP establishes connection
+  - UDP does not establish a connection before sending data.
+  - There is no handshake process in UDP.
+  - Data packets are sent directly to the receiver without confirmation.
+  - Packets may arrive out of order or may be lost, but communication remains fast.
+
+-> Difference between TCP and UDP
+  - TCP
+    • Reliable, connection-oriented.
+    • Ensures all packets arrive in correct order.
+    • Uses handshakes and error-checking mechanisms.
+    • Slower compared to UDP due to reliability features.
+    • Used for websites, emails, file transfers.
+
+  - UDP
+    • Fast, connectionless.
+    • No guarantee of delivery or order.
+    • No handshakes or retransmission of lost packets.
+    • Faster than TCP.
+    • Used for video calls, online games, streaming.
